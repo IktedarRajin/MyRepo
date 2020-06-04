@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Website</title>
+	<style>
+		h1{
+			background-color: cyan;
+			margin-bottom: 15px;
+			color: red;
+			text-align: center;
+		}
+		p{
+			border: 1px solid black;
+			margin-bottom: 15px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.p1{
+			background-color: #2F4F4F;
+			height: 500px;
+			width: 500px;
+		}
+		.p2{
+			background-color: #FF1493;
+			height: 50px;
+			width: 50px;
+		}
+		.row{
+			width: 100%;
+		}
+
+		@media (max-width: 1200px)
+		{
+			.p1{
+				width: 80%;
+				
+			}
+			.p2{
+				width: 150px;
+				height: 150px;
+				
+			}
+		}
+		@media(min-width: 992px and max-width: 1199px)
+		{
+			.p1{
+				width: 60%;
+				
+			}
+			.p2{
+				width: 200px;
+				height: 200px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>Responsive Desing Using CSS</h1>
+	<div class="row">
+		<p class="p1">
+			p1
+		</p>
+		<p class="p2">
+			p2
+		</p>
+
+	</div>
+
+</body>
+</html>

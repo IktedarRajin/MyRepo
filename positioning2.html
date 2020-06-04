@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Positioning</title>
+	<style>
+		*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		h1{
+			margin-bottom: 15px;
+		}
+		div#bg{
+			background-color: #7FFFD4;
+			position: relative;
+		}
+		p{
+			border: 1px solid black;
+			margin-bottom: 15px;
+		}
+		.p1{
+			box-sizing: border-box;
+			width: 50px;
+			height: 50px;
+			background-color: #800000;
+			position: relative;
+			top: 65px;
+			left: 65px;
+		}
+		.p2{
+			box-sizing: border-box;
+			width: 50px;
+			height: 50px;
+			background-color: #2F4F4F;
+		}
+		.p3{
+			box-sizing: border-box;
+			width: 50px;
+			height: 50px;
+			background-color: #FF1493;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.p4{
+			box-sizing: border-box;
+			width: 50px;
+			height: 50px;
+			background-color: #6A5ACD;
+			position: absolute;
+			top: 0px;
+			left: 65px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Relative and absolute positioning</h1>
+	<div id="bg">
+		<p class="p1">p1</p>
+		<p class="p2">p2</p>
+		<p class="p3">p3</p>
+		<p class="p4">p4</p>
+	</div>
+</body>
+</html>

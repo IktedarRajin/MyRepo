@@ -1,0 +1,27 @@
+.box{
+	background-color: #F0E68C;
+	padding: 10px;
+	border: 20px solid purple;
+	/*margin: 10px;*/
+	width: 300px;
+	color: red;
+}
+.box1{
+	background-color: #87CEEB;
+	padding: 10px ;
+	border: 20px solid blue;
+	/*margin: 10px;*/
+	width: 300px;
+	color: white;
+}
+*{
+	margin: 50px 250px 50px 250px;
+	box-sizing: 
+	
+}
+.bg{
+	width: 1000px;
+	height: 40px;		
+	background: url("shehrin.jpg") no-repeat left;
+
+}
